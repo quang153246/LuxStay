@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.3-web/css/all.min.css">
+    <title>LuxTour</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="header__search">    
+                <a href="#" class="header__search-logo">
+                    <svg version="1.1" viewBox="0 0 50 50" class="svg-icon svg-fill" style="width: 50px; height: 50px;"><path pid="0" d="M25.093 0c13.781.06 24.94 11.317 24.882 25.106C49.917 38.894 38.663 50.058 24.88 50 11.1 49.942-.059 38.683.001 24.894.057 11.106 11.31-.058 25.092 0zm11.801 31.9L14.398 16.053c.241-.26.48-.518.74-.777 2.7-2.687 5.971-4.031 9.775-4.015 3.804.015 7.064 1.388 9.741 4.098.238.241.476.482.694.743l-5.951 4.133 2.381 1.688 5.153-3.576v.02L39.33 16.7c-.692-1.203-1.584-2.325-2.616-3.39-3.231-3.292-7.167-4.947-11.788-4.967-4.6-.019-8.53 1.603-11.809 4.867a17.806 17.806 0 00-2.682 3.408l1.429 1.004 23.429 16.51c-.24.26-.48.518-.74.777-2.7 2.687-5.971 4.011-9.775 3.996-3.803-.016-7.063-1.37-9.74-4.08-.258-.26-.496-.521-.734-.782l6.111-4.251-.139-.181-2.183-1.528-5.373 3.735v-.021l-2.377 1.65a17.824 17.824 0 002.654 3.43c3.253 3.291 7.169 4.946 11.769 4.965 4.62.021 8.549-1.602 11.83-4.866 1.06-1.075 1.96-2.21 2.682-3.406l-2.383-1.67z" class=""></path></svg>
+                </a>
+                <div class="header__search-wrapper">
+                    <div class="header__search-input-wrapper">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Tìm kiếm" class="header__search-input">
+                    </div>
+                    <div class="header__search-date-wrapper">
+                        <i class="far fa-calendar-alt"></i>
+                        <span class="header__search-date-text">Ngày</span>
+                    </div>
+                    <div class="header__search-guest-wrapper">
+                        <i class="fas fa-user"></i>
+                        <span class="header__search-guest-text">Số khách</span>
+                    </div>
+                    <div class="header__search-btn">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>  
+            </div>
+            <div class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item">Host</li>
+                    <li class="header__nav-item">Đăng ký</li>
+                    <li class="header__nav-item">Đăng nhập</li>
+                    <li class="header__nav-item">
+                        <img class="header__nav-flag" src="https://www.luxstay.com/icons/vi.svg" alt="Vietnamese flag">
+                        VND
+                        <i class="fas fa-sort-down"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="slider">
+            <img class="slider__img" src="./assets/image/slider1.png" alt="">
+            <img class="slider__img" src="./assets/image/slider2.png" alt="">
+            <img class="slider__img" src="./assets/image/slider3.png" alt="">
+        </div>
+        <div class="content">
+            <div class="introduce">
+                <h2 class="introduce__heading">Chào mừng đến với Luxstay!</h2>
+                <p class="introduce__text">Đặt chỗ ở, homestay, cho thuê xe, trải nghiệm và nhiều hơn nữa trên Luxstay</p>
+                <a href="#" class="introduce__text introduce__link">Đăng nhập</a>
+                <span class="introduce__text">hoặc</span>
+                <a href="#" class="introduce__text introduce__link"> Đăng ký</a>
+                <span class="introduce__text">để trải nghiệm !</span>
+            </div>
+            <div class="slick-track">
+                <a href="#" class="slick-track__link" >
+                    <div class="slick-strack__item">
+                        <div class="slick-track__img-wrapper">
+                            <div class="slick-track__img" style="background-image: url(./assets/image/slick-track-homestay.png);"></div>
+                        </div>
+                        <h3 class="slick-track__heading">Homestay</h3>
+                        <p class="slick-track__text">Căn hộ dịch vụ & Biệt thự</p>
+                    </div>
+                </a>
+                <a href="#" class="slick-track__link" >
+                    <div class="slick-strack__item">
+                        <div class="slick-track__img-wrapper">
+                            <div class="slick-track__img" style="background-image: url(./assets/image/slick-track-ticket.png);"></div>
+                        </div>
+                        <h3 class="slick-track__heading">Vé tham quan</h3>
+                        <p class="slick-track__text">Mua vé thật dễ dàng</p>
+                    </div>
+                </a>
+            </div>
+            <div class="place-wrapper">
+                <div class="place-header">
+                    <h3 class="place-header__heading">Địa điểm nổi bật</h3>
+                    <p class="place-header__text">Cùng Luxstay bắt đầu chuyến hành trình chinh phục thế giới của bạn</p>
+                </div>
+                <div class="outstanding-place">
+                    <div class="outstanding-place__item" style="background-image: url(./assets/image/hanoi-img.png);">
+                        <h3 class="outstanding-place__item-heading">Hà nội</h3>
+                        <span class="outstanding-place-accommodate">1403</span>
+                        <span class="outstanding-place-home">Chỗ ở</span>
+                    </div>
+                    <div class="outstanding-place__item" style="background-image: url(./assets/image/tphcm-img.png);">
+                        <h3 class="outstanding-place__item-heading">TP.Hồ Chí Minh</h3>
+                        <span class="outstanding-place-accommodate">401</span>
+                        <span class="outstanding-place-home">Chỗ ở</span>
+                    </div>
+                    <div class="outstanding-place__item" style="background-image: url(./assets/image/danang-img.png);">
+                        <h3 class="outstanding-place__item-heading">Đà Nẵng</h3>
+                        <span class="outstanding-place-accommodate">1707</span>
+                        <span class="outstanding-place-home">Chỗ ở</span>
+                    </div>
+                    <div class="outstanding-place__item" style="background-image: url(./assets/image/dalat-img.png);">
+                        <h3 class="outstanding-place__item-heading">Đà Lạt</h3>
+                        <span class="outstanding-place-accommodate">2018</span>
+                        <span class="outstanding-place-home">Chỗ ở</span>
+                    </div>
+                    <div class="outstanding-place__item" style="background-image: url(./assets/image/vungtau-img.png);">
+                        <h3 class="outstanding-place__item-heading">Vũng Tàu</h3>
+                        <span class="outstanding-place-accommodate">1503</span>
+                        <span class="outstanding-place-home">Chỗ ở</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+
+    <!-- Slideshow -->
+    <script>
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          var i;
+          var slides =document.getElementsByClassName("slider__img");
+          console.log(slides.length)
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+         
+          slides[slideIndex-1].style.display = "block";  
+          setTimeout(showSlides, 4000); // Change image every 4 seconds
+        }
+    </script>
+    <!-- Glassmorphism -->
+    <script type="text/javascript" src="./assets/css/vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".outstanding-place__item"), {
+		max: 25,
+		speed: 400
+	});
+    </script>
+
+</body>
+</html>

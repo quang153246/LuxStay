@@ -1,0 +1,29 @@
+/*reset css*/
+
+*{
+    box-sizing: inherit;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    line-height: 1.6rem;
+}
+/*Animation*/
+@keyframes FadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes ZoomIn{
+    from{
+        transform: scale(1);
+        
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
