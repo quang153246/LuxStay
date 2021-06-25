@@ -193,9 +193,10 @@
     transition: 0.3s;
 }
 .slick-track__link:hover .slick-track__img{
-    animation: ZoomIn linear 3s;
     opacity: 0.8;
     overflow: hidden;
+    transform: scale(1.1);
+    transition-duration: 3s;
 }
 .slick-track__item{
 
@@ -345,4 +346,50 @@
     font-size: 1.5rem;
     padding:0 5px;
     line-height: 2rem;
+}
+/*recovery*/
+.recovery-wrapper{
+    width: 100%;
+    height: 500px;
+}
+.recovery-list{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 260px;
+}
+.recovery-item{
+    width: 420px;
+    height: 150px;
+    padding-top: 20%;
+    background-size: cover;
+    position: relative;
+    border-radius: 3px;
+}
+.recovery-item-btn{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    min-width: 200px;
+    background-color: rgb(51 49 49 / 40%);
+    text-align: center;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    line-height: 3rem;
+    border-radius: 20px;
+    color: #fff;
+}
+.recovery-item-btn:hover{
+    background-color: rgb(51 49 49 / 80%);
+    cursor: pointer;
+    
+}
+.recovery-item-text{
+    position: absolute;
+    padding: 0 20px 0 40px;
+    font-size: 2rem;
+    color: #ffffff;
+    top: 170px;
+    line-height: 2.5rem;
+    font-weight: 500;
 }
