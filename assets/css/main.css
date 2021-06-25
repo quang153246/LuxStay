@@ -225,7 +225,8 @@
 /*Place*/
 .place-wrapper{
     width: 100%;
-    height: 310px;
+    height: 400px;
+    margin-top: 68px;
 }
 .place-header__heading{
     font-size: 2.5rem;
@@ -241,14 +242,18 @@
     height: 100%;
     color: #fff;
     display: flex;
+    justify-content: space-between;
 }
 
 .outstanding-place__item{
     width: 247px;
-    height: 100%;
+    height: 310px;
     background-size: cover;
     border-radius: 3px;
     margin-right: 15px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 .outstanding-place__item:hover{
     opacity: 0.8;
@@ -259,13 +264,85 @@
     text-transform: uppercase;
     font-size: 2.3rem;
     padding:220px 0  0 40px;
+    position: absolute;
 }
 .outstanding-place-accommodate{
     font-size: 1.5rem;
     padding-left: 40px;
     font-weight: bolder;
+    position: absolute;
+    top: 275px;
+
 }
 .outstanding-place-home{
     font-size: 1.5rem;
+    position: absolute;
+    top: 275px;
+    left: 80px;
+}
+/*Promotion*/
+.promotion-wrapper{
+    width: 100%;
+    height: 300px;
+}
+.promotion-list{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.promotion-img{
+    height: 100%;
+    width: 410px;
+    padding-top: 50%;
+    background-size: cover;
+    border-radius: 10px;
+}
+.promotion-img:hover{
+    opacity: 0.9;
+}
+/*Suggestion*/
+.suggestion-wrapper{
+    width: 100%;
+    height: 386px;
+}
+.suggestion-list{
+    width: 100%;
+    height: 283px;
+    display: flex;
+    justify-content: space-between;
+}
+.suggestion-link{
+    text-decoration: none;
+}
+.suggestion-item:hover{
+    border: 2px solid transparent;
+}
+.suggestion-item:hover .suggestion-item__heading{
+    color: #ff7b89;
+}
+.suggestion-item{
+    width: 310px;
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 1px 1px 4px rgb(0 0 0 / 20%);
+}
+.suggestion-item__img{
+    padding-top: 55%;
+    height: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.suggestion-item__heading{
+    color: #222;
+    font-size: 1.2rem;
+    font-weight: 700;
     padding-left: 5px;
+}
+.suggestion-item__text{
+    color: #999;
+    font-size: 1.5rem;
+    padding:0 5px;
+    line-height: 2rem;
 }
