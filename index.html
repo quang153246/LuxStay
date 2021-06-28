@@ -40,10 +40,38 @@
                     <li class="header__nav-item">Host</li>
                     <li class="header__nav-item">Đăng ký</li>
                     <li class="header__nav-item">Đăng nhập</li>
-                    <li class="header__nav-item">
+                    <li class="header__nav-item nav-pop-up">
                         <img class="header__nav-flag" src="https://www.luxstay.com/icons/vi.svg" alt="Vietnamese flag">
                         VND
                         <i class="fas fa-sort-down"></i>
+                        <div class="header__nav-selection" >
+                            <div class="nav-flag-selection">
+                                <div class="nav-flag-selection-item" >
+                                    <img src="/assets/image/vietnam-flag.svg" alt="" class="nav-flag-selection-img">
+                                    <span class="nav-flag-selection-text">Tiếng Việt</span>
+                                    <i class="fas fa-check" style="margin-left: 5px;font-size: 0.9rem;"></i>
+                                </div>
+                                <div class="nav-flag-selection-item">
+                                    <img src="/assets/image/usa-flag.svg" alt="" class="nav-flag-selection-img">
+                                    <span class="nav-flag-selection-text">English</span>
+                                </div>
+                                <div class="nav-flag-selection-item">
+                                    <img src="/assets/image/korean-flag.svg" alt="" class="nav-flag-selection-img">
+                                    <span class="nav-flag-selection-text">Korean</span>
+                                </div>
+                            </div>
+                            <div class="nav-flag-selection">
+                                <div class="nav-flag-selection-item">
+                                    <span class="nav-money-selection-heading">VND</span>
+                                    <span class="nav-flag-selection-text">Việt Nam Đồng</span>
+                                    <i class="fas fa-check" style="margin-left: 5px;font-size: 0.9rem;"></i>
+                                </div>
+                                <div class="nav-flag-selection-item">
+                                    <span class="nav-money-selection-heading">USA</span>
+                                    <span class="nav-flag-selection-text">United States Dollar</span>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -310,9 +338,29 @@
     <script>
         VanillaTilt.init(document.querySelectorAll(".outstanding-place__item"), {
 		max: 25,
-		speed: 400
+		speed: 400,
 	});
     </script>
+    <!-- OpenForm -->
+    
 
+
+<script>
+    var toggler = document.getElementsByClassName("nav-pop-up");
+    var i;
+    for (i = 0; i < toggler.length; i++) {
+      toggler[i].addEventListener("click", function() {
+        this.parentElement.querySelector(".header__nav-selection").classList.toggle("active");
+      });
+    }
+    </script>
+    <!-- <script>
+        function openForm() {
+          document.querySelector(".header__nav-selection").style.display = "block";
+        }
+        function closeForm() {
+          document.querySelector(".header__nav-selection").style.display = "none";
+        }
+    </script> -->
 </body>
 </html>

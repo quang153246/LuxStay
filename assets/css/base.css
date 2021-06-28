@@ -27,3 +27,10 @@ html{
         transform: scale(1.2);
     }
 }
+/*Varible*/
+:root{
+    --main-color: #ff7b89;
+}
+.active {
+    display: block !important;
+}
