@@ -18,6 +18,16 @@ html{
         opacity: 1;
     }
 }
+@keyframes Slider{
+    from{
+        opacity: 0.5;
+        transform: translateX(-200px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
 @keyframes ZoomIn{
     from{
         transform: scale(1);
@@ -33,4 +43,11 @@ html{
 }
 .active {
     display: block !important;
+}
+/**/
+.display{
+    display: block !important;
+}
+.active-dot{
+    background: var(--main-color) !important;
 }
